@@ -4,7 +4,7 @@
 
 This project focuses on analyzing global COVID-19 data using SQL, starting from basic queries to advanced analytical techniques. The goal is to extract meaningful insights related to cases, deaths, and vaccination trends.
 
-## 🎯 Objectives
+## Objectives
 
 * Understand COVID-19 data structure
 * Perform data cleaning and preprocessing
