@@ -1,92 +1,87 @@
-# COVID-19 Data Analysis using SQL
+# Data Analytics Portfolio – Ankita Panwar
 
-## Project Overview
+## About Me
 
-This project focuses on analyzing global COVID-19 data using SQL, starting from basic queries to advanced analytical techniques. The goal is to extract meaningful insights related to cases, deaths, and vaccination trends.
+I am currently pursuing an MBA in Finance & Business Analytics with a strong interest in data analysis, visualization, and financial insights. I have hands-on experience working with Python, SQL, and Power BI to solve real-world business problems.
 
-## Objectives
+## Skills & Tools
 
-* Understand COVID-19 data structure
-* Perform data cleaning and preprocessing
-* Analyze infection and death rates
-* Apply SQL aggregation and joins
-* Use advanced SQL concepts like window functions
-* Prepare data for visualization tools (Power BI / Tableau)
+* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* SQL (Data Cleaning, Joins, Window Functions)
+* Power BI (Dashboard Development, Data Visualization)
+* Excel (Data Preparation & Analysis)
 
-## Dataset Used
+## Projects
 
-* CovidDeaths.csv
-* CovidVaccinations.csv
+### 1. Movie Revenue Analysis (Python)
 
-##  Tools & Technologies
+Analyzed movie dataset to identify factors affecting box office performance.
 
-* SQL Server (SSMS)
-* Excel (for initial sorting/filtering)
-* GitHub (for project hosting)
+Key Work:
 
-## Key Concepts Covered
+* Data cleaning (handling missing values, duplicates)
+* Correlation analysis using heatmaps
+* Budget vs Gross revenue analysis
+* Created Profit column (Gross - Budget)
+* Performed genre, company, and yearly analysis
 
-###  Basic SQL
+Key Insight:
+Higher budget movies tend to generate higher revenue, but profitability varies significantly.
 
-* SELECT, WHERE, ORDER BY
-* NULL handling (ISNULL, COALESCE, NULLIF)
+### 2. COVID-19 Data Analysis (SQL)
 
-###  Aggregation
+Performed end-to-end SQL analysis on COVID dataset using multiple advanced concepts. 
 
-* SUM, AVG, MAX, MIN
-* GROUP BY, HAVING
+Key Work:
 
-###  Joins
+* Data exploration using SELECT statements
+* Data cleaning using WHERE, ISNULL, COALESCE
+* Calculated death percentage and infection rate
+* Used GROUP BY for country-wise and global analysis
+* Implemented JOINS to combine deaths and vaccination data
+* Applied window functions (ROW_NUMBER, RANK, LAG)
+* Created rolling vaccination count
+* Built views for dashboard integration
 
-* INNER JOIN
-* LEFT JOIN
+Key Insight:
+SQL helped in deriving meaningful insights such as infection trends, death rates, and vaccination progress across countries.
 
-###  Advanced SQL
+### 3. Blinkit Sales Dashboard (Power BI)
 
-* Window Functions (ROW_NUMBER, RANK, LAG)
-* Subqueries
-* CASE Statements
-* Date Functions
+Developed an interactive dashboard to analyze sales performance and business insights.
 
-###  Data Analysis
+Key Features:
 
-* Death Percentage
-* Infection Rate
-* Growth Rate Analysis
-* Rolling Vaccination Count
+* KPIs: Total Sales ($1.20M), Avg Sales ($141), No. of Items (8523), Avg Rating (3.9)
+* Outlet analysis (Tier 1, Tier 2, Tier 3)
+* Item type and category performance
+* Fat content and outlet size comparison
+* Year-wise outlet establishment trend
+* Interactive filters for dynamic analysis
 
-##  Key Insights
+Key Insight:
+Tier 3 outlets and certain product categories contribute significantly to total sales, highlighting business expansion opportunities.
 
-* Identified countries with highest infection rates
-* Analyzed global death trends
-* Compared vaccination progress across regions
-* Calculated daily growth in cases
+## How to Use
 
-##  Sample Analysis Performed
+* Open Python project in Jupyter Notebook
+* Run SQL queries in SQL Server / MySQL
+* Open Power BI dashboard (.pbix file)
 
-* Death Rate = Total Deaths / Total Cases
-* Infection Rate = Total Cases / Population
-* Daily Increase using LAG()
-* Rolling Vaccinations using Window Functions
+## What I Learned
 
-## Project Highlights
+* End-to-end data analysis workflow
+* Data cleaning and preprocessing techniques
+* Extracting insights using SQL queries
+* Building interactive dashboards for decision-making
 
-✔ Beginner to Advanced SQL workflow
-✔ Real-world dataset analysis
-✔ Clean and structured queries
-✔ Ready for dashboard integration
+## Future Goals
 
-## Future Enhancements
+* Build machine learning models
+* Work on real-time datasets
+* Improve dashboard storytelling and business insights
 
-* Build Power BI Dashboard
-* Add more datasets for comparison
-* Perform predictive analysis
+## Contact
 
-## Author
+Open to internship and entry-level opportunities in Data Analytics / Business Analytics.
 
-Ankita Panwar
-MBA (Finance & Business Analytics)
-
-⭐ If you like this project
-
-Give it a star ⭐ on GitHub!
